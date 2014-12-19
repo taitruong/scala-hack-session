@@ -82,7 +82,7 @@ Actually a [function literal is equivalent to an implementation of FunctionN](ht
 Mathematically a partial function f(x') => y is a subset of a function f(x) => y where x' is a subset of x. In Scala you use for this the PartialFunction trait:
 https://gist.github.com/taitruong/9620714
 
-The PartialFunction has along with the apply method a isDefinedAt method. This allows the caller to check the input arguments first before applying a partial function. Read more about partial functions [here](http://tommy.chheng.com/2010/04/23/partial-functions-in-scala/).
+The PartialFunction has along with the apply method a isDefinedAt method. This allows the caller to (manually) check the input arguments first before applying a partial function. Read more about partial functions [here](http://tommy.chheng.com/2010/04/23/partial-functions-in-scala/).
 
 Please do not mix up a partial function with a partially applied function. 
 
