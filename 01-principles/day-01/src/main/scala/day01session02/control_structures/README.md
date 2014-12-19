@@ -102,7 +102,7 @@ The solution in the worksheet looks like [this](./solution/ControlStructures03Pa
 You can also match against a type. Taking the case class example from the [last session](../../day01session01/first_steps/solution/FirstSteps03Classes.sc) we can check the sub classes Var, Number, and VarNumber:
 https://gist.github.com/taitruong/9547207
 
-<u>Constructor Pattern</u>
+## Constructor Pattern
 The above example can also be solved by constructor patterns:
 https://gist.github.com/taitruong/9547590
 
